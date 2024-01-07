@@ -5,6 +5,11 @@ body {
   margin: 28px 63px 16px 63px;
 }
 
+main {
+  box-shadow: 1px 1px 10px #d9d9d9;
+  border-radius: 10px;
+}
+
 .head-1 {
   padding: 8px 0px 8px 48px;
   border-bottom: 1px solid #d9d9d9;
@@ -65,11 +70,6 @@ button[type="edit"] {
 
 .edit-biodata {
   flex: auto;
-}
-
-main {
-  box-shadow: 1px 1px 10px #d9d9d9;
-  border-radius: 10px;
 }
 
 form {

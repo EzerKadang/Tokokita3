@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  height: 100vh;
+  margin: 28px 63px 16px 63px;
+}
+
+main {
+  box-shadow: 1px 1px 10px #d9d9d9;
+  border-radius: 10px;
+}
+
+.upload-foto {
+  display: flex;
+}
+
+.upload-foto > input {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
